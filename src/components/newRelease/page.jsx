@@ -92,18 +92,6 @@ export default async function NewRelease() {
         {/* Konten kiri */}
         <div className="absolute inset-0 p-6 md:p-8 flex items-center">
           <div className="max-w-xl">
-            {/* badges kecil */}
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-[11px] font-semibold px-2 py-1 rounded-full bg-white/20 backdrop-blur text-white">
-                10XP / episode
-              </span>
-              <div className="flex -space-x-2">
-                <div className="h-5 w-5 rounded-full bg-white/80 border border-white/50" />
-                <div className="h-5 w-5 rounded-full bg-white/60 border border-white/50" />
-                <div className="h-5 w-5 rounded-full bg-white/40 border border-white/50" />
-              </div>
-              <span className="text-xs text-white/80">+5 friends are watching</span>
-            </div>
 
             <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
               {title}
