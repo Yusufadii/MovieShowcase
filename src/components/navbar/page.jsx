@@ -13,22 +13,22 @@ export default function Navbar() {
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
-                        <NavigationMenuLink asChild className='text-[16px] text-[#B6B6B6] bg-[#EDEEF0] rounded-[39px] font-semibold hover:text-[#fff] hover:bg-[#141D2E] px-6 transition duration-500 ease-in-out'>
+                        <NavigationMenuLink asChild className='text-[16px] text-[#fff] bg-[#101010] rounded-[39px] font-semibold hover:text-[#CBF273] hover:bg-[#023C26] hover:shadow-[0_4px_10px_rgba(203, 242, 115, 0.1)] px-6 transition duration-500 ease-in-out'>
                             <Link href="/docs">Movies</Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuLink asChild className='text-[16px] text-[#B6B6B6] bg-[#EDEEF0] rounded-[39px] font-semibold hover:text-[#fff] hover:bg-[#141D2E] px-6 transition duration-500 ease-in-out'>
+                        <NavigationMenuLink asChild className='text-[16px] text-[#fff] bg-[#101010] rounded-[39px] font-semibold hover:text-[#CBF273] hover:bg-[#023C26] hover:shadow-[0_4px_10px_rgba(203, 242, 115, 0.1)] px-6 transition duration-500 ease-in-out'>
                             <Link href="/docs">TV Series</Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuLink asChild className='text-[16px] text-[#B6B6B6] bg-[#EDEEF0] rounded-[39px] font-semibold hover:text-[#fff] hover:bg-[#141D2E] px-6 transition duration-500 ease-in-out'>
+                        <NavigationMenuLink asChild className='text-[16px] text-[#fff] bg-[#101010] rounded-[39px] font-semibold hover:text-[#CBF273] hover:bg-[#023C26] hover:shadow-[0_4px_10px_rgba(203, 242, 115, 0.1)] px-6 transition duration-500 ease-in-out'>
                             <Link href="/docs">Top Rated</Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuLink asChild className='text-[16px] text-[#B6B6B6] bg-[#EDEEF0] rounded-[39px] font-semibold hover:text-[#fff] hover:bg-[#141D2E] px-6 transition duration-500 ease-in-out'>
+                        <NavigationMenuLink asChild className='text-[16px] text-[#fff] bg-[#101010] rounded-[39px] font-semibold hover:text-[#CBF273] hover:bg-[#023C26] hover:shadow-[0_4px_10px_rgba(203, 242, 115, 0.1)] px-6 transition duration-500 ease-in-out'>
                             <Link href="/docs">Artist</Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
@@ -37,7 +37,7 @@ export default function Navbar() {
         </div>
       <div className='flex gap-3'>
         <button className='bg-[#141D2E] rounded-full p-3 hover:bg-[#002977] transition duration-500 ease-in-out'><Bell className='text-[#fff] size-5'/></button>
-        <button className='bg-[#EDEEF0] rounded-full flex items-center gap-4 px-[20px] py-[7px] hover:bg-[#D3D3D3] transition duration-500 ease-in-out'>
+        <button className='bg-[#101010] rounded-full flex items-center gap-4 px-[20px] py-[7px] hover:bg-[#D3D3D3] transition duration-500 ease-in-out'>
             <div className='flex gap-2 items-center'>
                 <Avatar>
                     <AvatarImage src="https://github.com/shadcn.png" />
