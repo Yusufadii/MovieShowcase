@@ -54,7 +54,7 @@ export default async function NewRelease() {
   }
 
   const hero = items[0];
-  const thumbs = items.slice(1, 4); // 3 kartu kecil kanan-bawah
+  const thumbs = items.slice(1, 4);
 
   const isTV = hero.media_type === "tv";
   let seasonsText = "";
@@ -77,7 +77,6 @@ export default async function NewRelease() {
 
   return (
       <div className="relative h-[260px] md:h-[360px] lg:h-[420px] rounded-3xl overflow-hidden">
-        {/* Backdrop */}
         <Image
           src={imgUrl(bg, "w1280")}
           alt={title}
@@ -85,11 +84,7 @@ export default async function NewRelease() {
           className="object-cover"
           priority
         />
-
-        {/* Vignette kanan biar teks kebaca */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-black/0" />
-
-        {/* Konten kiri */}
         <div className="absolute inset-0 p-6 md:p-8 flex items-center">
           <div className="max-w-xl">
 
@@ -116,8 +111,6 @@ export default async function NewRelease() {
             </div>
           </div>
         </div>
-
-        {/* Thumbnails stack kanan-bawah */}
         <div className="hidden md:flex absolute right-4 bottom-4 gap-3">
           {thumbs.map((t, i) => {
             const tTitle =
