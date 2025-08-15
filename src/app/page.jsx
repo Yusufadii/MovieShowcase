@@ -14,7 +14,6 @@ export default async function Home() {
   return (
     <main className="w-full max-w-[1200px] bg-[#EEEFF3] rounded-[30px] md:rounded-[50px] p-10 md:p-[30px] mx-auto mt-10 mb-10">
       <Trending />
-      <Popular />
     </main>
   );
 }
