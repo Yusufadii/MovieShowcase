@@ -1,4 +1,3 @@
-// app/artist/[id]/page.jsximport Image from "next/image";
 import { notFound } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
@@ -54,10 +53,8 @@ export default async function ArtistOverviewPage({ params }) {
     const { id } = await params;
     const person = await getPerson(id).catch(() => null);
     if (!person?.id) return notFound();
-
     const age = calcAge(person.birthday, person.deathday);
-    const aka = (person.also_known_as || []).slice(0, 6);
-
+    
     return (
         <div className="w-full max-w-[1200px] mx-auto mt-10 px-4">
             <Card className="overflow-hidden">
