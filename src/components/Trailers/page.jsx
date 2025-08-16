@@ -53,7 +53,7 @@ export default async function TrailersBento() {
         return {
             id: m.id,
             title: m.title || m.original_title || "Untitled",
-            key: best.key, // YouTube key
+            key: best.key,
             imagePath: m.backdrop_path || m.poster_path,
         };
     })
